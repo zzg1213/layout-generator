@@ -1,0 +1,6626 @@
+{
+  "parameters": {
+    "structure_type": "RC_Frame",
+    "num_stories": 4,
+    "layout_id": 3,
+    "layout_type": "layout3",
+    "layout_name": "Right notch"
+  },
+  "story_height": [
+    3900.0,
+    3900.0,
+    3900.0,
+    3900.0
+  ],
+  "story_count": 4,
+  "SlabProperties": {
+    "thickness_mm": 120.0
+  },
+  "LoadProperties": {
+    "beam_line_load_kn_per_m": 8.5,
+    "load_case": "DEAD"
+  },
+  "SeismicParameters": {
+    "seismic_intensity": 8,
+    "PGA_target": 0.2,
+    "PGA_rare_max": 4000.0,
+    "design_group": 2,
+    "site_class": "II",
+    "damping_ratio": 0.05
+  },
+  "MaterialProperties": {
+    "concrete_grade": "C30",
+    "steel_grade": "HRB400",
+    "E_c": 30000.0,
+    "E_s": 200000.0,
+    "fc": 14.3,
+    "fck": 20.1,
+    "ft": 1.43,
+    "ftk": 2.01,
+    "fy": 360.0,
+    "concrete_cover_mm": 20.0
+  },
+  "ReinforcementProperties": {
+    "beam_steel_grade": "HRB400",
+    "column_steel_grade": "HRB400",
+    "wall_steel_grade": "HRB400"
+  },
+  "geometry": {
+    "grid_x": [
+      0.0,
+      4500.0,
+      9000.0,
+      13500.0,
+      18000.0,
+      22500.0
+    ],
+    "grid_y": [
+      0.0,
+      4500.0,
+      9000.0,
+      13500.0,
+      18000.0
+    ],
+    "grid_z": [
+      0.0,
+      3900.0,
+      7800.0,
+      11700.0,
+      15600.0
+    ],
+    "active_cells": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ]
+    ]
+  },
+  "nodes": {
+    "N_0_0": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "N_0_1": {
+      "x": 0.0,
+      "y": 4500.0
+    },
+    "N_0_2": {
+      "x": 0.0,
+      "y": 9000.0
+    },
+    "N_0_3": {
+      "x": 0.0,
+      "y": 13500.0
+    },
+    "N_0_4": {
+      "x": 0.0,
+      "y": 18000.0
+    },
+    "N_1_0": {
+      "x": 4500.0,
+      "y": 0.0
+    },
+    "N_1_1": {
+      "x": 4500.0,
+      "y": 4500.0
+    },
+    "N_1_2": {
+      "x": 4500.0,
+      "y": 9000.0
+    },
+    "N_1_3": {
+      "x": 4500.0,
+      "y": 13500.0
+    },
+    "N_1_4": {
+      "x": 4500.0,
+      "y": 18000.0
+    },
+    "N_2_0": {
+      "x": 9000.0,
+      "y": 0.0
+    },
+    "N_2_1": {
+      "x": 9000.0,
+      "y": 4500.0
+    },
+    "N_2_2": {
+      "x": 9000.0,
+      "y": 9000.0
+    },
+    "N_2_3": {
+      "x": 9000.0,
+      "y": 13500.0
+    },
+    "N_2_4": {
+      "x": 9000.0,
+      "y": 18000.0
+    },
+    "N_3_0": {
+      "x": 13500.0,
+      "y": 0.0
+    },
+    "N_3_1": {
+      "x": 13500.0,
+      "y": 4500.0
+    },
+    "N_3_2": {
+      "x": 13500.0,
+      "y": 9000.0
+    },
+    "N_3_3": {
+      "x": 13500.0,
+      "y": 13500.0
+    },
+    "N_3_4": {
+      "x": 13500.0,
+      "y": 18000.0
+    },
+    "N_4_0": {
+      "x": 18000.0,
+      "y": 0.0
+    },
+    "N_4_1": {
+      "x": 18000.0,
+      "y": 4500.0
+    },
+    "N_4_2": {
+      "x": 18000.0,
+      "y": 9000.0
+    },
+    "N_4_3": {
+      "x": 18000.0,
+      "y": 13500.0
+    },
+    "N_4_4": {
+      "x": 18000.0,
+      "y": 18000.0
+    },
+    "N_5_1": {
+      "x": 22500.0,
+      "y": 4500.0
+    },
+    "N_5_2": {
+      "x": 22500.0,
+      "y": 9000.0
+    },
+    "N_5_3": {
+      "x": 22500.0,
+      "y": 13500.0
+    }
+  },
+  "sections": {
+    "beam1": {
+      "b": 250.0,
+      "h": 450.0
+    },
+    "column1": {
+      "b": 350.0,
+      "h": 350.0
+    }
+  },
+  "columns": {
+    "01": {
+      "C_0_0": {
+        "node": "N_0_0",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 3900.0
+        }
+      },
+      "C_0_1": {
+        "node": "N_0_1",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 3900.0
+        }
+      },
+      "C_0_2": {
+        "node": "N_0_2",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 3900.0
+        }
+      },
+      "C_0_3": {
+        "node": "N_0_3",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 3900.0
+        }
+      },
+      "C_0_4": {
+        "node": "N_0_4",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 3900.0
+        }
+      },
+      "C_1_0": {
+        "node": "N_1_0",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 3900.0
+        }
+      },
+      "C_1_1": {
+        "node": "N_1_1",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        }
+      },
+      "C_1_2": {
+        "node": "N_1_2",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        }
+      },
+      "C_1_3": {
+        "node": "N_1_3",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        }
+      },
+      "C_1_4": {
+        "node": "N_1_4",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        }
+      },
+      "C_2_0": {
+        "node": "N_2_0",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 3900.0
+        }
+      },
+      "C_2_1": {
+        "node": "N_2_1",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        }
+      },
+      "C_2_2": {
+        "node": "N_2_2",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        }
+      },
+      "C_2_3": {
+        "node": "N_2_3",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        }
+      },
+      "C_2_4": {
+        "node": "N_2_4",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        }
+      },
+      "C_3_0": {
+        "node": "N_3_0",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 3900.0
+        }
+      },
+      "C_3_1": {
+        "node": "N_3_1",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        }
+      },
+      "C_3_2": {
+        "node": "N_3_2",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        }
+      },
+      "C_3_3": {
+        "node": "N_3_3",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        }
+      },
+      "C_3_4": {
+        "node": "N_3_4",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        }
+      },
+      "C_4_0": {
+        "node": "N_4_0",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 3900.0
+        }
+      },
+      "C_4_1": {
+        "node": "N_4_1",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        }
+      },
+      "C_4_2": {
+        "node": "N_4_2",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        }
+      },
+      "C_4_3": {
+        "node": "N_4_3",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        }
+      },
+      "C_4_4": {
+        "node": "N_4_4",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        }
+      },
+      "C_5_1": {
+        "node": "N_5_1",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        }
+      },
+      "C_5_2": {
+        "node": "N_5_2",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        }
+      },
+      "C_5_3": {
+        "node": "N_5_3",
+        "story": 1,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 0.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        }
+      }
+    },
+    "02": {
+      "C_0_0": {
+        "node": "N_0_0",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 7800.0
+        }
+      },
+      "C_0_1": {
+        "node": "N_0_1",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 7800.0
+        }
+      },
+      "C_0_2": {
+        "node": "N_0_2",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 7800.0
+        }
+      },
+      "C_0_3": {
+        "node": "N_0_3",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 7800.0
+        }
+      },
+      "C_0_4": {
+        "node": "N_0_4",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 7800.0
+        }
+      },
+      "C_1_0": {
+        "node": "N_1_0",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 7800.0
+        }
+      },
+      "C_1_1": {
+        "node": "N_1_1",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        }
+      },
+      "C_1_2": {
+        "node": "N_1_2",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        }
+      },
+      "C_1_3": {
+        "node": "N_1_3",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        }
+      },
+      "C_1_4": {
+        "node": "N_1_4",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        }
+      },
+      "C_2_0": {
+        "node": "N_2_0",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 7800.0
+        }
+      },
+      "C_2_1": {
+        "node": "N_2_1",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        }
+      },
+      "C_2_2": {
+        "node": "N_2_2",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        }
+      },
+      "C_2_3": {
+        "node": "N_2_3",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        }
+      },
+      "C_2_4": {
+        "node": "N_2_4",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        }
+      },
+      "C_3_0": {
+        "node": "N_3_0",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 7800.0
+        }
+      },
+      "C_3_1": {
+        "node": "N_3_1",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        }
+      },
+      "C_3_2": {
+        "node": "N_3_2",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        }
+      },
+      "C_3_3": {
+        "node": "N_3_3",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        }
+      },
+      "C_3_4": {
+        "node": "N_3_4",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        }
+      },
+      "C_4_0": {
+        "node": "N_4_0",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 7800.0
+        }
+      },
+      "C_4_1": {
+        "node": "N_4_1",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        }
+      },
+      "C_4_2": {
+        "node": "N_4_2",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        }
+      },
+      "C_4_3": {
+        "node": "N_4_3",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        }
+      },
+      "C_4_4": {
+        "node": "N_4_4",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        }
+      },
+      "C_5_1": {
+        "node": "N_5_1",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        }
+      },
+      "C_5_2": {
+        "node": "N_5_2",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        }
+      },
+      "C_5_3": {
+        "node": "N_5_3",
+        "story": 2,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        }
+      }
+    },
+    "03": {
+      "C_0_0": {
+        "node": "N_0_0",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 11700.0
+        }
+      },
+      "C_0_1": {
+        "node": "N_0_1",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 11700.0
+        }
+      },
+      "C_0_2": {
+        "node": "N_0_2",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 11700.0
+        }
+      },
+      "C_0_3": {
+        "node": "N_0_3",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 11700.0
+        }
+      },
+      "C_0_4": {
+        "node": "N_0_4",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 11700.0
+        }
+      },
+      "C_1_0": {
+        "node": "N_1_0",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 11700.0
+        }
+      },
+      "C_1_1": {
+        "node": "N_1_1",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        }
+      },
+      "C_1_2": {
+        "node": "N_1_2",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        }
+      },
+      "C_1_3": {
+        "node": "N_1_3",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        }
+      },
+      "C_1_4": {
+        "node": "N_1_4",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        }
+      },
+      "C_2_0": {
+        "node": "N_2_0",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 11700.0
+        }
+      },
+      "C_2_1": {
+        "node": "N_2_1",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        }
+      },
+      "C_2_2": {
+        "node": "N_2_2",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        }
+      },
+      "C_2_3": {
+        "node": "N_2_3",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        }
+      },
+      "C_2_4": {
+        "node": "N_2_4",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        }
+      },
+      "C_3_0": {
+        "node": "N_3_0",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 11700.0
+        }
+      },
+      "C_3_1": {
+        "node": "N_3_1",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        }
+      },
+      "C_3_2": {
+        "node": "N_3_2",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        }
+      },
+      "C_3_3": {
+        "node": "N_3_3",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        }
+      },
+      "C_3_4": {
+        "node": "N_3_4",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        }
+      },
+      "C_4_0": {
+        "node": "N_4_0",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 11700.0
+        }
+      },
+      "C_4_1": {
+        "node": "N_4_1",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        }
+      },
+      "C_4_2": {
+        "node": "N_4_2",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        }
+      },
+      "C_4_3": {
+        "node": "N_4_3",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        }
+      },
+      "C_4_4": {
+        "node": "N_4_4",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        }
+      },
+      "C_5_1": {
+        "node": "N_5_1",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        }
+      },
+      "C_5_2": {
+        "node": "N_5_2",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        }
+      },
+      "C_5_3": {
+        "node": "N_5_3",
+        "story": 3,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        }
+      }
+    },
+    "04": {
+      "C_0_0": {
+        "node": "N_0_0",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 15600.0
+        }
+      },
+      "C_0_1": {
+        "node": "N_0_1",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 15600.0
+        }
+      },
+      "C_0_2": {
+        "node": "N_0_2",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 15600.0
+        }
+      },
+      "C_0_3": {
+        "node": "N_0_3",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 15600.0
+        }
+      },
+      "C_0_4": {
+        "node": "N_0_4",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 15600.0
+        }
+      },
+      "C_1_0": {
+        "node": "N_1_0",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 15600.0
+        }
+      },
+      "C_1_1": {
+        "node": "N_1_1",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        }
+      },
+      "C_1_2": {
+        "node": "N_1_2",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        }
+      },
+      "C_1_3": {
+        "node": "N_1_3",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        }
+      },
+      "C_1_4": {
+        "node": "N_1_4",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        }
+      },
+      "C_2_0": {
+        "node": "N_2_0",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 15600.0
+        }
+      },
+      "C_2_1": {
+        "node": "N_2_1",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        }
+      },
+      "C_2_2": {
+        "node": "N_2_2",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        }
+      },
+      "C_2_3": {
+        "node": "N_2_3",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        }
+      },
+      "C_2_4": {
+        "node": "N_2_4",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 15600.0
+        }
+      },
+      "C_3_0": {
+        "node": "N_3_0",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 15600.0
+        }
+      },
+      "C_3_1": {
+        "node": "N_3_1",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        }
+      },
+      "C_3_2": {
+        "node": "N_3_2",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        }
+      },
+      "C_3_3": {
+        "node": "N_3_3",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        }
+      },
+      "C_3_4": {
+        "node": "N_3_4",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        }
+      },
+      "C_4_0": {
+        "node": "N_4_0",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 15600.0
+        }
+      },
+      "C_4_1": {
+        "node": "N_4_1",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        }
+      },
+      "C_4_2": {
+        "node": "N_4_2",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        }
+      },
+      "C_4_3": {
+        "node": "N_4_3",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        }
+      },
+      "C_4_4": {
+        "node": "N_4_4",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 15600.0
+        }
+      },
+      "C_5_1": {
+        "node": "N_5_1",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        }
+      },
+      "C_5_2": {
+        "node": "N_5_2",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        }
+      },
+      "C_5_3": {
+        "node": "N_5_3",
+        "story": 4,
+        "direction": "Z",
+        "length": 3900.0,
+        "section": "column1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        }
+      }
+    }
+  },
+  "beams": {
+    "01": {
+      "B_0_0_2": {
+        "i_node": "N_0_0",
+        "j_node": "N_0_1",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_0_1": {
+        "i_node": "N_0_0",
+        "j_node": "N_1_0",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_2": {
+        "i_node": "N_0_1",
+        "j_node": "N_0_2",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_1": {
+        "i_node": "N_0_1",
+        "j_node": "N_1_1",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_2": {
+        "i_node": "N_0_2",
+        "j_node": "N_0_3",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_1": {
+        "i_node": "N_0_2",
+        "j_node": "N_1_2",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_2": {
+        "i_node": "N_0_3",
+        "j_node": "N_0_4",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_1": {
+        "i_node": "N_0_3",
+        "j_node": "N_1_3",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_4_1": {
+        "i_node": "N_0_4",
+        "j_node": "N_1_4",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_2": {
+        "i_node": "N_1_0",
+        "j_node": "N_1_1",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_1": {
+        "i_node": "N_1_0",
+        "j_node": "N_2_0",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_2": {
+        "i_node": "N_1_1",
+        "j_node": "N_1_2",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_1": {
+        "i_node": "N_1_1",
+        "j_node": "N_2_1",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_2": {
+        "i_node": "N_1_2",
+        "j_node": "N_1_3",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_1": {
+        "i_node": "N_1_2",
+        "j_node": "N_2_2",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_2": {
+        "i_node": "N_1_3",
+        "j_node": "N_1_4",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_1": {
+        "i_node": "N_1_3",
+        "j_node": "N_2_3",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_4_1": {
+        "i_node": "N_1_4",
+        "j_node": "N_2_4",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_2": {
+        "i_node": "N_2_0",
+        "j_node": "N_2_1",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_1": {
+        "i_node": "N_2_0",
+        "j_node": "N_3_0",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_2": {
+        "i_node": "N_2_1",
+        "j_node": "N_2_2",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_1": {
+        "i_node": "N_2_1",
+        "j_node": "N_3_1",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_2": {
+        "i_node": "N_2_2",
+        "j_node": "N_2_3",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_1": {
+        "i_node": "N_2_2",
+        "j_node": "N_3_2",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_2": {
+        "i_node": "N_2_3",
+        "j_node": "N_2_4",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_1": {
+        "i_node": "N_2_3",
+        "j_node": "N_3_3",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_4_1": {
+        "i_node": "N_2_4",
+        "j_node": "N_3_4",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_2": {
+        "i_node": "N_3_0",
+        "j_node": "N_3_1",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_1": {
+        "i_node": "N_3_0",
+        "j_node": "N_4_0",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_2": {
+        "i_node": "N_3_1",
+        "j_node": "N_3_2",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_1": {
+        "i_node": "N_3_1",
+        "j_node": "N_4_1",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_2": {
+        "i_node": "N_3_2",
+        "j_node": "N_3_3",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_1": {
+        "i_node": "N_3_2",
+        "j_node": "N_4_2",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_2": {
+        "i_node": "N_3_3",
+        "j_node": "N_3_4",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_1": {
+        "i_node": "N_3_3",
+        "j_node": "N_4_3",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_4_1": {
+        "i_node": "N_3_4",
+        "j_node": "N_4_4",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_0_2": {
+        "i_node": "N_4_0",
+        "j_node": "N_4_1",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_2": {
+        "i_node": "N_4_1",
+        "j_node": "N_4_2",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_1": {
+        "i_node": "N_4_1",
+        "j_node": "N_5_1",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_2": {
+        "i_node": "N_4_2",
+        "j_node": "N_4_3",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_1": {
+        "i_node": "N_4_2",
+        "j_node": "N_5_2",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_2": {
+        "i_node": "N_4_3",
+        "j_node": "N_4_4",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_1": {
+        "i_node": "N_4_3",
+        "j_node": "N_5_3",
+        "story": 1,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_1_2": {
+        "i_node": "N_5_1",
+        "j_node": "N_5_2",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_2_2": {
+        "i_node": "N_5_2",
+        "j_node": "N_5_3",
+        "story": 1,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 3900.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 3900.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      }
+    },
+    "02": {
+      "B_0_0_2": {
+        "i_node": "N_0_0",
+        "j_node": "N_0_1",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_0_1": {
+        "i_node": "N_0_0",
+        "j_node": "N_1_0",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_2": {
+        "i_node": "N_0_1",
+        "j_node": "N_0_2",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_1": {
+        "i_node": "N_0_1",
+        "j_node": "N_1_1",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_2": {
+        "i_node": "N_0_2",
+        "j_node": "N_0_3",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_1": {
+        "i_node": "N_0_2",
+        "j_node": "N_1_2",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_2": {
+        "i_node": "N_0_3",
+        "j_node": "N_0_4",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_1": {
+        "i_node": "N_0_3",
+        "j_node": "N_1_3",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_4_1": {
+        "i_node": "N_0_4",
+        "j_node": "N_1_4",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_2": {
+        "i_node": "N_1_0",
+        "j_node": "N_1_1",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_1": {
+        "i_node": "N_1_0",
+        "j_node": "N_2_0",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_2": {
+        "i_node": "N_1_1",
+        "j_node": "N_1_2",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_1": {
+        "i_node": "N_1_1",
+        "j_node": "N_2_1",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_2": {
+        "i_node": "N_1_2",
+        "j_node": "N_1_3",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_1": {
+        "i_node": "N_1_2",
+        "j_node": "N_2_2",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_2": {
+        "i_node": "N_1_3",
+        "j_node": "N_1_4",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_1": {
+        "i_node": "N_1_3",
+        "j_node": "N_2_3",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_4_1": {
+        "i_node": "N_1_4",
+        "j_node": "N_2_4",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_2": {
+        "i_node": "N_2_0",
+        "j_node": "N_2_1",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_1": {
+        "i_node": "N_2_0",
+        "j_node": "N_3_0",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_2": {
+        "i_node": "N_2_1",
+        "j_node": "N_2_2",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_1": {
+        "i_node": "N_2_1",
+        "j_node": "N_3_1",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_2": {
+        "i_node": "N_2_2",
+        "j_node": "N_2_3",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_1": {
+        "i_node": "N_2_2",
+        "j_node": "N_3_2",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_2": {
+        "i_node": "N_2_3",
+        "j_node": "N_2_4",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_1": {
+        "i_node": "N_2_3",
+        "j_node": "N_3_3",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_4_1": {
+        "i_node": "N_2_4",
+        "j_node": "N_3_4",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_2": {
+        "i_node": "N_3_0",
+        "j_node": "N_3_1",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_1": {
+        "i_node": "N_3_0",
+        "j_node": "N_4_0",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_2": {
+        "i_node": "N_3_1",
+        "j_node": "N_3_2",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_1": {
+        "i_node": "N_3_1",
+        "j_node": "N_4_1",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_2": {
+        "i_node": "N_3_2",
+        "j_node": "N_3_3",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_1": {
+        "i_node": "N_3_2",
+        "j_node": "N_4_2",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_2": {
+        "i_node": "N_3_3",
+        "j_node": "N_3_4",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_1": {
+        "i_node": "N_3_3",
+        "j_node": "N_4_3",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_4_1": {
+        "i_node": "N_3_4",
+        "j_node": "N_4_4",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_0_2": {
+        "i_node": "N_4_0",
+        "j_node": "N_4_1",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_2": {
+        "i_node": "N_4_1",
+        "j_node": "N_4_2",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_1": {
+        "i_node": "N_4_1",
+        "j_node": "N_5_1",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_2": {
+        "i_node": "N_4_2",
+        "j_node": "N_4_3",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_1": {
+        "i_node": "N_4_2",
+        "j_node": "N_5_2",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_2": {
+        "i_node": "N_4_3",
+        "j_node": "N_4_4",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_1": {
+        "i_node": "N_4_3",
+        "j_node": "N_5_3",
+        "story": 2,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_1_2": {
+        "i_node": "N_5_1",
+        "j_node": "N_5_2",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_2_2": {
+        "i_node": "N_5_2",
+        "j_node": "N_5_3",
+        "story": 2,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 7800.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 7800.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      }
+    },
+    "03": {
+      "B_0_0_2": {
+        "i_node": "N_0_0",
+        "j_node": "N_0_1",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_0_1": {
+        "i_node": "N_0_0",
+        "j_node": "N_1_0",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_2": {
+        "i_node": "N_0_1",
+        "j_node": "N_0_2",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_1": {
+        "i_node": "N_0_1",
+        "j_node": "N_1_1",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_2": {
+        "i_node": "N_0_2",
+        "j_node": "N_0_3",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_1": {
+        "i_node": "N_0_2",
+        "j_node": "N_1_2",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_2": {
+        "i_node": "N_0_3",
+        "j_node": "N_0_4",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_1": {
+        "i_node": "N_0_3",
+        "j_node": "N_1_3",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_4_1": {
+        "i_node": "N_0_4",
+        "j_node": "N_1_4",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_2": {
+        "i_node": "N_1_0",
+        "j_node": "N_1_1",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_1": {
+        "i_node": "N_1_0",
+        "j_node": "N_2_0",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_2": {
+        "i_node": "N_1_1",
+        "j_node": "N_1_2",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_1": {
+        "i_node": "N_1_1",
+        "j_node": "N_2_1",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_2": {
+        "i_node": "N_1_2",
+        "j_node": "N_1_3",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_1": {
+        "i_node": "N_1_2",
+        "j_node": "N_2_2",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_2": {
+        "i_node": "N_1_3",
+        "j_node": "N_1_4",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_1": {
+        "i_node": "N_1_3",
+        "j_node": "N_2_3",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_4_1": {
+        "i_node": "N_1_4",
+        "j_node": "N_2_4",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_2": {
+        "i_node": "N_2_0",
+        "j_node": "N_2_1",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_1": {
+        "i_node": "N_2_0",
+        "j_node": "N_3_0",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_2": {
+        "i_node": "N_2_1",
+        "j_node": "N_2_2",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_1": {
+        "i_node": "N_2_1",
+        "j_node": "N_3_1",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_2": {
+        "i_node": "N_2_2",
+        "j_node": "N_2_3",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_1": {
+        "i_node": "N_2_2",
+        "j_node": "N_3_2",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_2": {
+        "i_node": "N_2_3",
+        "j_node": "N_2_4",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_1": {
+        "i_node": "N_2_3",
+        "j_node": "N_3_3",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_4_1": {
+        "i_node": "N_2_4",
+        "j_node": "N_3_4",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_2": {
+        "i_node": "N_3_0",
+        "j_node": "N_3_1",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_1": {
+        "i_node": "N_3_0",
+        "j_node": "N_4_0",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_2": {
+        "i_node": "N_3_1",
+        "j_node": "N_3_2",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_1": {
+        "i_node": "N_3_1",
+        "j_node": "N_4_1",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_2": {
+        "i_node": "N_3_2",
+        "j_node": "N_3_3",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_1": {
+        "i_node": "N_3_2",
+        "j_node": "N_4_2",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_2": {
+        "i_node": "N_3_3",
+        "j_node": "N_3_4",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_1": {
+        "i_node": "N_3_3",
+        "j_node": "N_4_3",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_4_1": {
+        "i_node": "N_3_4",
+        "j_node": "N_4_4",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_0_2": {
+        "i_node": "N_4_0",
+        "j_node": "N_4_1",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_2": {
+        "i_node": "N_4_1",
+        "j_node": "N_4_2",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_1": {
+        "i_node": "N_4_1",
+        "j_node": "N_5_1",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_2": {
+        "i_node": "N_4_2",
+        "j_node": "N_4_3",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_1": {
+        "i_node": "N_4_2",
+        "j_node": "N_5_2",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_2": {
+        "i_node": "N_4_3",
+        "j_node": "N_4_4",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_1": {
+        "i_node": "N_4_3",
+        "j_node": "N_5_3",
+        "story": 3,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_1_2": {
+        "i_node": "N_5_1",
+        "j_node": "N_5_2",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_2_2": {
+        "i_node": "N_5_2",
+        "j_node": "N_5_3",
+        "story": 3,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 11700.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 11700.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      }
+    },
+    "04": {
+      "B_0_0_2": {
+        "i_node": "N_0_0",
+        "j_node": "N_0_1",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_0_1": {
+        "i_node": "N_0_0",
+        "j_node": "N_1_0",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_2": {
+        "i_node": "N_0_1",
+        "j_node": "N_0_2",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_1_1": {
+        "i_node": "N_0_1",
+        "j_node": "N_1_1",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_2": {
+        "i_node": "N_0_2",
+        "j_node": "N_0_3",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_2_1": {
+        "i_node": "N_0_2",
+        "j_node": "N_1_2",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_2": {
+        "i_node": "N_0_3",
+        "j_node": "N_0_4",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_3_1": {
+        "i_node": "N_0_3",
+        "j_node": "N_1_3",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_0_4_1": {
+        "i_node": "N_0_4",
+        "j_node": "N_1_4",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 0.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_2": {
+        "i_node": "N_1_0",
+        "j_node": "N_1_1",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_0_1": {
+        "i_node": "N_1_0",
+        "j_node": "N_2_0",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_2": {
+        "i_node": "N_1_1",
+        "j_node": "N_1_2",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_1_1": {
+        "i_node": "N_1_1",
+        "j_node": "N_2_1",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_2": {
+        "i_node": "N_1_2",
+        "j_node": "N_1_3",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_2_1": {
+        "i_node": "N_1_2",
+        "j_node": "N_2_2",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_2": {
+        "i_node": "N_1_3",
+        "j_node": "N_1_4",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_3_1": {
+        "i_node": "N_1_3",
+        "j_node": "N_2_3",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_1_4_1": {
+        "i_node": "N_1_4",
+        "j_node": "N_2_4",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 4500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_2": {
+        "i_node": "N_2_0",
+        "j_node": "N_2_1",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_0_1": {
+        "i_node": "N_2_0",
+        "j_node": "N_3_0",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_2": {
+        "i_node": "N_2_1",
+        "j_node": "N_2_2",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_1_1": {
+        "i_node": "N_2_1",
+        "j_node": "N_3_1",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_2": {
+        "i_node": "N_2_2",
+        "j_node": "N_2_3",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_2_1": {
+        "i_node": "N_2_2",
+        "j_node": "N_3_2",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_2": {
+        "i_node": "N_2_3",
+        "j_node": "N_2_4",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_3_1": {
+        "i_node": "N_2_3",
+        "j_node": "N_3_3",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_2_4_1": {
+        "i_node": "N_2_4",
+        "j_node": "N_3_4",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 9000.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_2": {
+        "i_node": "N_3_0",
+        "j_node": "N_3_1",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_0_1": {
+        "i_node": "N_3_0",
+        "j_node": "N_4_0",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_2": {
+        "i_node": "N_3_1",
+        "j_node": "N_3_2",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_1_1": {
+        "i_node": "N_3_1",
+        "j_node": "N_4_1",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_2": {
+        "i_node": "N_3_2",
+        "j_node": "N_3_3",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_2_1": {
+        "i_node": "N_3_2",
+        "j_node": "N_4_2",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_2": {
+        "i_node": "N_3_3",
+        "j_node": "N_3_4",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_3_1": {
+        "i_node": "N_3_3",
+        "j_node": "N_4_3",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_3_4_1": {
+        "i_node": "N_3_4",
+        "j_node": "N_4_4",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 13500.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_0_2": {
+        "i_node": "N_4_0",
+        "j_node": "N_4_1",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 0.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_2": {
+        "i_node": "N_4_1",
+        "j_node": "N_4_2",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_1_1": {
+        "i_node": "N_4_1",
+        "j_node": "N_5_1",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_2": {
+        "i_node": "N_4_2",
+        "j_node": "N_4_3",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_2_1": {
+        "i_node": "N_4_2",
+        "j_node": "N_5_2",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_2": {
+        "i_node": "N_4_3",
+        "j_node": "N_4_4",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 18000.0,
+          "y": 18000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_4_3_1": {
+        "i_node": "N_4_3",
+        "j_node": "N_5_3",
+        "story": 4,
+        "direction": "X",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 18000.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_1_2": {
+        "i_node": "N_5_1",
+        "j_node": "N_5_2",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 4500.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      },
+      "B_5_2_2": {
+        "i_node": "N_5_2",
+        "j_node": "N_5_3",
+        "story": 4,
+        "direction": "Y",
+        "length": 4500.0,
+        "section": "beam1",
+        "rebar_grade": "HRB400",
+        "start": {
+          "x": 22500.0,
+          "y": 9000.0,
+          "z": 15600.0
+        },
+        "end": {
+          "x": 22500.0,
+          "y": 13500.0,
+          "z": 15600.0
+        },
+        "line_load": {
+          "case": "DEAD",
+          "direction": "Gravity",
+          "value_kn_per_m": 8.5
+        }
+      }
+    }
+  }
+}

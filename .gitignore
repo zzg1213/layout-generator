@@ -3,6 +3,19 @@ __pycache__/
 
 out/
 out_e2k/
+pkpm/
+PKPM_e2k/
+*_extracted/
+
+*.PDB
+*.DB
+*.OUT
+*.TMP
+*.SAT
+*.SPS
+*.bak
+*.bak1
+*.sqlite
 
 .venv/
 venv/
