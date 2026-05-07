@@ -21,26 +21,33 @@ LAYOUT_IDS = range(1, 10)
 BASE_SEED = 20260506
 
 
+def project_root() -> Path:
+    return Path(__file__).resolve().parents[1]
+
+
+def generators_dir() -> Path:
+    return project_root() / "src" / "rc_frame_dataset" / "generators"
+
+
 def parse_args() -> argparse.Namespace:
-    base_dir = Path(__file__).resolve().parent
     parser = argparse.ArgumentParser(
         description="Generate every supported RC frame layout JSON.",
     )
     parser.add_argument(
         "--outdir",
         type=str,
-        default=str(base_dir / "out"),
-        help="output directory (default: ./out under this script folder)",
+        default=str(project_root() / "out"),
+        help="output directory (default: ./out under the project root)",
     )
     return parser.parse_args()
 
 
-def load_generator(layout_id: int, base_dir: Path) -> ModuleType:
-    generator_path = base_dir / str(layout_id) / f"rc_frame_layout_generator{layout_id}.py"
+def load_generator(layout_id: int) -> ModuleType:
+    generator_path = generators_dir() / f"layout_{layout_id:02d}.py"
     if not generator_path.exists():
         raise FileNotFoundError(f"generator not found: {generator_path}")
 
-    spec = importlib.util.spec_from_file_location(f"rc_frame_layout_generator{layout_id}", generator_path)
+    spec = importlib.util.spec_from_file_location(f"rc_frame_dataset.generators.layout_{layout_id:02d}", generator_path)
     if spec is None or spec.loader is None:
         raise RuntimeError(f"unable to load generator: {generator_path}")
     module = importlib.util.module_from_spec(spec)
@@ -79,10 +86,9 @@ def build_config(module: ModuleType, story_count: int, x_count: int, y_count: in
 
 def main() -> int:
     args = parse_args()
-    base_dir = Path(__file__).resolve().parent
     outdir = Path(args.outdir)
     if not outdir.is_absolute():
-        outdir = (base_dir / outdir).resolve()
+        outdir = (project_root() / outdir).resolve()
 
     story_batches_dir = outdir / "story_batches"
     if story_batches_dir.exists():
@@ -94,7 +100,7 @@ def main() -> int:
     span_count_pairs = iter_span_count_pairs()
 
     for layout_id in LAYOUT_IDS:
-        module = load_generator(layout_id, base_dir)
+        module = load_generator(layout_id)
         device = module.torch.device("cuda" if module.torch.cuda.is_available() else "cpu")
         for story_count in STORY_COUNTS:
             story_dir = story_batches_dir / f"story_{story_count:02d}"

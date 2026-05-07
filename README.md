@@ -1,34 +1,46 @@
-# layout-generator
+# RC Frame Structure Dataset
 
-本仓库分享一个框架结构数据集的创建流程：先生成规则化 RC 框架结构 JSON，再转换为 E2K，导入 PKPM 完成结构计算，最后从 PKPM 工程文件中抽取设计结果和配筋结果。
+本仓库用于分享一个框架结构数据集的创建流程：生成规则化 RC 框架结构 JSON，转换为 E2K，导入 PKPM 完成计算，再从 PKPM 工程文件中抽取设计结果和配筋结果。
 
-仓库只公开方法、脚本和少量样例结果。完整批量 JSON、E2K、PKPM 工程目录、PDB/SAT/OUT/DB 等软件产物不进入 Git，避免仓库过大，也避免把中间工程文件直接公开。
+仓库只公开方法、脚本和少量样例结果。完整批量 JSON、E2K、PKPM 工程目录、PDB/SAT/OUT/DB 等软件产物不进入 Git。
 
-## 目录说明
+## 项目结构
 
-- `run_layout.py`：批量生成 1 到 9 号布局的结构 JSON。
-- `1/` 到 `9/`：不同布局类型的生成器。
-- `tools/json_to_e2k.py`：把结构 JSON 转换为 E2K。
-- `tools/extract_pkpm_files.py`：从 PKPM 工程目录抽取后处理所需文件。
-- `tools/extract_structure_from_t.py`：从抽取后的 PKPM 文件中生成包含设计结果和配筋结果的数据 JSON。
-- `examples/`：最小链路样例，包括一个布局 JSON、对应 E2K、一个 PKPM 后处理结果 JSON。
+```text
+.
+├── scripts/
+│   └── generate_layouts.py          # 批量生成结构 JSON
+├── src/
+│   └── rc_frame_dataset/
+│       └── generators/
+│           ├── layout_01.py         # 1 到 9 号布局生成器
+│           └── layout_09.py
+├── tools/
+│   ├── json_to_e2k.py               # JSON 转 E2K
+│   ├── extract_pkpm_files.py        # 从 PKPM 工程抽取必要文件
+│   └── extract_structure_from_t.py  # 提取设计结果与配筋结果
+└── examples/
+    ├── layout_json/                 # 结构 JSON 样例
+    ├── e2k/                         # E2K 样例
+    └── pkpm_results/                # PKPM 后处理结果样例
+```
 
-## 运行环境
+## 环境
 
 本项目在 Windows 下使用现有 Anaconda 环境测试：
 
 ```powershell
-& "C:\Project\anaconda3\envs\torch_cuda\python.exe" -m py_compile ".\run_layout.py"
+& "C:\Project\anaconda3\envs\torch_cuda\python.exe" -m py_compile ".\scripts\generate_layouts.py"
 ```
 
-生成器依赖 Python 和 PyTorch。可视化路径在 Matplotlib 可用时启用，但批量生成默认关闭可视化。
+生成器依赖 Python 和 PyTorch。可视化路径在 Matplotlib 可用时启用，批量生成默认关闭可视化。
 
 ## 1. 生成结构 JSON
 
 在仓库根目录执行：
 
 ```powershell
-& "C:\Project\anaconda3\envs\torch_cuda\python.exe" .\run_layout.py --outdir ".\out"
+& "C:\Project\anaconda3\envs\torch_cuda\python.exe" .\scripts\generate_layouts.py --outdir ".\out"
 ```
 
 脚本会按楼层数、跨数、跨度和布局类型批量生成结构 JSON，默认输出到 `out/story_batches/`。该目录是生成产物，不纳入 Git。

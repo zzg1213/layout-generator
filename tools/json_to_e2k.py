@@ -431,7 +431,7 @@ def convert_file(json_path: Path, output_dir: Path) -> Path:
         layout = json.load(file)
     model = validate_layout(layout)
     story_dir = output_dir / f"story_{model['story_count']:02d}"
-    model_dir = story_dir / f"{model['story_count']}层{json_path.stem}"
+    model_dir = story_dir / json_path.stem
     model_dir.mkdir(parents=True, exist_ok=True)
     output_path = model_dir / json_path.with_suffix(".e2k").name
     output_path.write_text(build_e2k(model, json_path), encoding="utf-8")
